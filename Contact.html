@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="RvaCares.css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+   
+        <script>
+            function validateForm() {
+                if (document.forms[0].fname.value == "") {
+                    alert("First Name field can not be epmty.");
+                    return false;
+                }//end if
+
+                if (document.forms[0].lname.value == "") {
+                    alert("Last Name field can not be epmty.");
+                    return false;
+                }//end if
+
+                if (document.forms[0].email.value == "") {
+                    alert("Email field can not be epmty.");
+                    return false;
+                }//end if
+                alert("First Name, Last name and Email is valid.");
+                return true;
+
+            }//end function validateForm
+        </script>
+</head>
+<body>
+    <form method="post"
+          action="http://webfoundations.net/scripts/formdemo.asp"
+          onsubmit="return validateForm();">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name: <input type="text" name="fname" id="fname" /><br /><br /></label>
+            <label>Last Name: <input type="text" name="lname" id="lname" /><br /><br /></label>
+            <label>Email: <input type="text" name="email" id="email" /><br /><br /></label>
+        </fieldset>
+        <br /><br />
+        <fieldset>
+            <legend>Your Opinion is very important to us</legend>
+            <label>
+                Comments: <br />
+                <textarea name="comments" id="comments" rows="10" cols="200"></textarea>
+            </label>
+        </fieldset><br /><br /><fieldset>
+            <legend>Return to Main Home page</legend>
+            <input type="Submit"><br /><br />
+            <input type="Reset" /><br /><br />
+            <a style="float:left; color:gray;font-size:larger;font-weight:bolder" href="IndexSoClean.html">Home Page</a>
+        </fieldset>
+    </form>
+
+</body>
+</html>

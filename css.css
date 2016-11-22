@@ -1,0 +1,161 @@
+body {
+   
+    font-family: comic sans crimson, Lucida Console, cursive;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: left;
+    line-height: 200%;
+    color: #093e63;
+}
+
+dt {
+    color:#093e63 ;
+    padding: 8px;
+}
+
+h2 h3 {
+    color: #093e63;
+    padding: 8px;
+}
+
+blockquote, figcaption {
+    color: red;
+    font-weight: 900;
+	text-align:center;
+}
+
+p a {
+    background-color: white;
+    border-bottom: medium solid #f74906;
+    text-decoration: none;
+    color: #a3a8ab;
+}
+
+figure, figcaption {
+    float: right;
+}
+
+nav {
+    float: left;
+    width: 15%;
+    height: 900px;
+	
+}
+
+#main {
+    width: 85%;
+    height: 1000px;
+}
+
+#wrapper {
+    width: 98%;
+    margin: 0 10px 0 10px;
+    background-color: #edede4;
+    border: thin solid black;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+    color: #093e63;
+    font-size: large;
+}
+
+
+table tr:first-of-type {
+    color: #093e63;
+    padding: 1em;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+
+}
+form{background-color:#edede4;
+     font-family:Arial, sans-serif;
+     padding:10px;
+
+}
+label{
+      width:100px;
+      clear:left;
+      text-align:right;
+      padding-right:10px;
+      margin-top:10px;
+
+}
+input, textarea{margin-top:10px;
+                display:block;
+
+}
+legend{
+    color:darkgreen;
+    font-size:larger;
+    font-weight:bold;
+    text-align:center;
+}
+#wrapper { width: 80%;
+           margin-left: auto;
+           margin-right: auto;
+           background-color: white;
+            }
+
+
+body {
+    background-color: #e1f5fe;
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+	
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+table {
+	border:double;
+	width: 100%;
+}
+
+th,td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+header{border: 1px solid gray;}

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form method="post" onsubmit="return ValidateForm(this);">
+        <script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") { alert('Name is required.'); return false; }
+if (frm.EmailAddress.value == "") { alert('Email address is required.');  return false; }
+
+return true; }
+        </script>
+        <table border="1" cellpadding="5" cellspacing="0" style="width: 360px; margin: auto; text-align: left;">
+            <tr>
+                <td>
+                    <label for="Name">NAME</label><br />
+                    <input name="Name" type="text" maxlength="60" style="width: 340px;" />
+                </td>
+            </tr>
+           
+            <tr>
+                <td>
+                    <label for="EmailAddress">EMAIL</label><br />
+                    <input name="EmailAddress" type="text" maxlength="60" style="width: 340px;" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                    <input type="Submit"><br /><br />
+                    <input type="Reset" /><br /><br />
+                    <a style="float:left; color:gray;font-size:larger;font-weight:bolder" href="IndexRvaCaresS.html">Home Page</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
